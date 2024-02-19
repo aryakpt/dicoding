@@ -1,4 +1,4 @@
-# Dicodinh
+# Dicoding
 
 Ini merupakan repository latihan flutter dari kursus online dicoding dengan judul:
 

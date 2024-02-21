@@ -34,7 +34,7 @@
 @media only screen and (min-width: 560px) {
   .header-content {
     background-size: 80% auto;
-    padding: 120px 120px;
+    padding: 120px 80px;
   }
 }
 

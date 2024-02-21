@@ -1,0 +1,60 @@
+.program {
+  padding: 80px 40px;
+  background-color: white;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.program-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.program-header {
+  text-align: center;
+}
+
+.program-header h1 {
+  font-size: 40px;
+}
+
+.program-header h1 {
+  font-size: 40px;
+}
+
+.program-card {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+}
+
+.program-card img {
+  width: 100%;
+}
+
+.program-body {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.program-body p {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 560px) {
+  .program-content {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .program-card {
+    width: calc(50% - 40px);
+  }
+}

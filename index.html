@@ -13,23 +13,23 @@
     />
   </head>
   <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="./assets/images/logo.png" alt="Bosscoder Academy" />
+      </div>
+      <label class="navbar-hamburger-menu" for="menu">
+        <img src="./assets/images/menu-bar.png" alt="" />
+      </label>
+      <input type="checkbox" name="menu" id="menu" />
+      <ul class="navbar-nav">
+        <li><a href="#program">Programs</a></li>
+        <li><a href="#review">Reviews</a></li>
+        <li><a href="#feature">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="btn btn-secondary">Free Masterclass</button></li>
+      </ul>
+    </nav>
     <header>
-      <nav class="navbar">
-        <div class="navbar-logo">
-          <img src="./assets/images/logo.png" alt="Bosscoder Academy" />
-        </div>
-        <label class="navbar-hamburger-menu" for="menu">
-          <img src="./assets/images/menu-bar.png" alt="" />
-        </label>
-        <input type="checkbox" name="menu" id="menu" />
-        <ul class="navbar-nav">
-          <li><a href="#program">Programs</a></li>
-          <li><a href="#review">Reviews</a></li>
-          <li><a href="#feature">Features</a></li>
-          <li><a href="#teaching">Teaching</a></li>
-          <li><button class="btn btn-secondary">Free Masterclass</button></li>
-        </ul>
-      </nav>
       <section class="header">
         <div class="header-content">
           <h1>Grab your Dream tech offer today</h1>
@@ -49,7 +49,7 @@
       </section>
     </header>
     <main>
-      <section class="company">
+      <section id="review" class="company">
         <h1>100+ Successful Alumni working at top product - Based company</h1>
         <div class="company-list">
           <img src="./assets/images/adobe.png" alt="adobe" />
@@ -60,6 +60,40 @@
           <img src="./assets/images/paypal.png" alt="paypal" />
           <img src="./assets/images/samsung.png" alt="samsung" />
           <img src="./assets/images/swiggy.png" alt="swiggy" />
+        </div>
+      </section>
+
+      <section id="program" class="program">
+        <div class="program-header">
+          <h1>Our Program</h1>
+          <p>
+            Ace Your Skills In Problem Solving In DSA, System Design And
+            Developement
+          </p>
+        </div>
+        <div class="program-content">
+          <article class="program-card">
+            <img src="./assets/images/program-1.png" alt="Program 1" />
+            <div class="program-body">
+              <h2>For Collage Students</h2>
+              <p>
+                Who want to rocket-start their career and get placed in thier
+                dream companies
+              </p>
+              <button class="btn btn-secondary">View Program</button>
+            </div>
+          </article>
+          <article class="program-card">
+            <img src="./assets/images/program-2.png" alt="Program 1" />
+            <div class="program-body">
+              <h2>For Collage Professionals</h2>
+              <p>
+                Who wish to shift to top product based companies and ace thier
+                tech careers
+              </p>
+              <button class="btn btn-secondary">View Program</button>
+            </div>
+          </article>
         </div>
       </section>
     </main>

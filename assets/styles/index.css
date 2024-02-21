@@ -2,11 +2,13 @@
 @import "./button.css";
 @import "./header.css";
 @import "./company.css";
+@import "./program.css";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {

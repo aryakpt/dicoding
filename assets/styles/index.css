@@ -1,6 +1,7 @@
 @import "./nav.css";
 @import "./button.css";
 @import "./header.css";
+@import "./company.css";
 
 * {
   box-sizing: border-box;

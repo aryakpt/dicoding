@@ -13,7 +13,9 @@ export const filteredData = {
 
 export const initiateData = () => {
   if (isStorageExist()) {
-    const response = loadDataFromLocalStorage(STORAGE_KEY);
-    response.forEach((book) => bookshelf.push(book));
+    const response = loadDataFromLocalStorage(STORAGE_KEY) || [];
+    response.forEach((book) =>
+      bookshelf.push({ ...book, year: parseInt(book.year) }),
+    );
   }
 };

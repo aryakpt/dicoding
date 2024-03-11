@@ -38,7 +38,7 @@ function resetForm() {
 export function onSubmitHandler() {
   const title = document.getElementById("inputBookTitle").value;
   const author = document.getElementById("inputBookAuthor").value;
-  const year = document.getElementById("inputBookYear").value;
+  const year = parseInt(document.getElementById("inputBookYear").value);
   const isComplete = document.getElementById("inputBookIsComplete").checked;
 
   const id = generateId();

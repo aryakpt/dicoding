@@ -52,10 +52,26 @@
   .program {
     padding: 80px 80px;
   }
+  .program-content {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .program-card {
+    width: calc(50% - 40px);
+  }
 }
 
 @media only screen and (min-width: 1064px) {
   .program {
     padding: 80px 160px;
+  }
+  .program-content {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .program-card {
+    width: calc(50% - 40px);
   }
 }

@@ -1,178 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bosscoder Academy</title>
-    <link rel="stylesheet" href="./assets/styles/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.png"
-      type="image/x-icon"
-    />
+    <title>Welcome to Cube World!</title>
+    <style>
+      button {
+        width: 200px;
+        font-size: 15px;
+        margin: 8px;
+        padding: 3px;
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-logo">
-        <img src="./assets/images/logo.png" alt="Bosscoder Academy" />
+    <div align="center">
+      <h2>Its Cube Time!</h2>
+      <img
+        id="gambar"
+        src="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/homepage-dicoding-challenge-illustration.png"
+        alt="Its a rubiks cube!"
+        width="150"
+        height="100"
+      />
+      <p id="caption">
+        <b>Sudah siap untuk memecahkan teka-teki permainan tersebut?</b>
+      </p>
+      <div class="button-group">
+        <div class="button">
+          <button>Sejarah</button>
+        </div>
+        <div class="button">
+          <button>Permainan</button>
+        </div>
+        <div class="button">
+          <button><i>Fun Fact</i></button>
+        </div>
+        <div class="button">
+          <button>Play (Coming Soon)</button>
+        </div>
+        <div class="button">
+          <button>Exit</button>
+        </div>
       </div>
-      <label class="navbar-hamburger-menu" for="menu">
-        <img src="./assets/images/menu-bar.png" alt="" />
-      </label>
-      <input type="checkbox" name="menu" id="menu" />
-      <ul class="navbar-nav">
-        <li><a href="#program">Programs</a></li>
-        <li><a href="#review">Reviews</a></li>
-        <li><a href="#feature">Features</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><button class="btn btn-secondary">Free Masterclass</button></li>
-      </ul>
-    </nav>
-    <header>
-      <section class="header">
-        <div class="header-content">
-          <h1>Grab your Dream tech offer today</h1>
-          <ul>
-            <li>
-              A highly structured, personalized and guided word-class program
-            </li>
-            <li>Designed by industry expertst</li>
-            <li>That will make you the best software developer out there</li>
-            <li>
-              For ambition learners, who don’t want to settle for anything less
-              in their tech careers
-            </li>
-          </ul>
-          <button class="btn btn-secondary">Apply Now</button>
-        </div>
-      </section>
-    </header>
-    <main>
-      <section id="program" class="program">
-        <div class="program-header">
-          <h1>Our Program</h1>
-          <p>
-            Ace Your Skills In Problem Solving In DSA, System Design And
-            Developement
-          </p>
-        </div>
-        <div class="program-content">
-          <article class="program-card">
-            <img src="./assets/images/program-1.png" alt="Program 1" />
-            <div class="program-body">
-              <h2>For Collage Students</h2>
-              <p>
-                Who want to rocket-start their career and get placed in thier
-                dream companies
-              </p>
-              <button class="btn btn-secondary">View Program</button>
-            </div>
-          </article>
-          <article class="program-card">
-            <img src="./assets/images/program-2.png" alt="Program 1" />
-            <div class="program-body">
-              <h2>For Collage Professionals</h2>
-              <p>
-                Who wish to shift to top product based companies and ace thier
-                tech careers
-              </p>
-              <button class="btn btn-secondary">View Program</button>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="review" class="company">
-        <h1>100+ Successful Alumni working at top product - Based company</h1>
-        <aside class="company-list">
-          <img src="./assets/images/adobe.png" alt="adobe" />
-          <img src="./assets/images/amazon.png" alt="amazon" />
-          <img src="./assets/images/google.png" alt="google" />
-          <img src="./assets/images/meta.png" alt="meta" />
-          <img src="./assets/images/microsoft.png" alt="microsoft" />
-          <img src="./assets/images/paypal.png" alt="paypal" />
-          <img src="./assets/images/samsung.png" alt="samsung" />
-          <img src="./assets/images/swiggy.png" alt="swiggy" />
-        </aside>
-      </section>
-
-      <section id="feature" class="features">
-        <div class="features-header">
-          <h1>Placement and Career Support</h1>
-          <p>Helping students get exposed to a world opportunitities</p>
-        </div>
-        <div class="features-content">
-          <article class="feature-card">
-            <img src="./assets/images/feat-1.png" alt="Feat 1" />
-            <h3>Career Portfolio Optimization</h3>
-            <p>
-              Referrals and Career Tips by 400+ Alumni and Mentors from top
-              product-based companies
-            </p>
-          </article>
-          <article class="feature-card">
-            <img src="./assets/images/feat-1.png" alt="Feat 1" />
-            <h3>Extensive Support by Alumni-Mentor Network</h3>
-            <p>
-              Referrals and Career Tips by 400+ Alumni and Mentors from top
-              product-based companies
-            </p>
-          </article>
-          <article class="feature-card">
-            <img src="./assets/images/feat-1.png" alt="Feat 1" />
-            <h3>Placement Opportunities</h3>
-            <p>
-              Referrals and Career Tips by 400+ Alumni and Mentors from top
-              product-based companies
-            </p>
-          </article>
-          <article class="feature-card">
-            <img src="./assets/images/feat-1.png" alt="Feat 1" />
-            <h3>Mock Interviews</h3>
-            <p>
-              Referrals and Career Tips by 400+ Alumni and Mentors from top
-              product-based companies
-            </p>
-          </article>
-        </div>
-      </section>
-    </main>
-    <footer id="contact">
-      <section class="left-footer">
-        <img src="./assets/images/logo.png" alt="Logo" />
-        <p>
-          Helping ambitious learners upskill themselves & shift to top product
-          based companies
-        </p>
-      </section>
-      <aside class="right-footer">
-        <div>
-          <h3>About</h3>
-          <ul>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Term Of Use</li>
-            <li>Refund Policy</li>
-            <li>Privacy Policy</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Useful Link</h3>
-          <ul>
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>LinkedIn</li>
-            <li>Telegram</li>
-            <li>Youtube</li>
-          </ul>
-        </div>
-      </aside>
-    </footer>
+    </div>
   </body>
 </html>
